@@ -3,11 +3,13 @@ initialize count to 0
 listen for clicks on the increment button
 change the count-el in the HTML to reflect the new count
 */
-let countEl = document.getElementById("count-el").innerText = 0;
+let countEl = document.getElementById("count-el");
+
 let count = 0;
 function increment() {
     count += 1;
     console.log(count);
+    countEl.innerText = count;
 }
 
 
