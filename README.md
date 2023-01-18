@@ -1,2 +1,2 @@
 # cautious-octo-couscous
-Passenger Counter 
+This is a simple passenger counter app
