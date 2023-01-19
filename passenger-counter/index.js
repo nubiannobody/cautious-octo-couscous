@@ -17,6 +17,9 @@ function save() {
     // console.log("I'm saving the people! " + count + " people saved!")
     let countDash = count + " - ";
     saveEl.textContent += countDash;
+    if (save) {
+        countEl.textContent = 0;
+    }
 }
 
 
