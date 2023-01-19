@@ -16,11 +16,10 @@ function save() {
     // console.log(count);
     // console.log("I'm saving the people! " + count + " people saved!")
     let countDash = count + " - ";
-    saveEl.innerText += countDash;
-    console.log(count);
+    saveEl.textContent += countDash;
 }
 
-save();
+
 
 // addEventListener("click", "count-el");
 
