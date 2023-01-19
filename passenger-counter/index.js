@@ -12,6 +12,12 @@ function increment() {
     countEl.innerText = count;
 }
 
+function save() {
+    console.log(count);
+    console.log("I'm saving the people! " + count + " people saved!")
+}
+
+save();
 
 // addEventListener("click", "count-el");
 
@@ -22,9 +28,9 @@ function increment() {
 
 // increment();
 
-let lap1 = 34;
-let lap2 = 33;
-let lap3 = 36;
+// let lap1 = 34;
+// let lap2 = 33;
+// let lap3 = 36;
 
 // Create a function that logs out the sum
 // of all the lap times
