@@ -31,7 +31,6 @@ button {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -39,10 +38,12 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: plum;
+    border: 4px solid darkorchid;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: darkorchid;
+    border: 4px solid plum;
 }
 
