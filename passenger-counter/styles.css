@@ -1,13 +1,19 @@
-div {
-    max-width: auto;
-}
-
 body {
     background-size: cover;
     background-image: url(./castle.jpeg);
     font-family: apple chancery;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: salmon;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid slateblue;
+    border-radius: 10px;
 }
 
 h1 {
