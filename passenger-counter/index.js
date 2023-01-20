@@ -3,11 +3,11 @@ initialize count to 0
 listen for clicks on the increment button
 change the count-el in the HTML to reflect the new count
 */
-let saveEl = document.getElementById("comeIn");
+let saveEl = document.getElementById("save-el");
 let countEl = document.getElementById("count-el");
 let count = 0;
 
-function comeIn() {
+function increment() {
     count += 1;
     countEl.textContent = count;
 }
@@ -16,7 +16,7 @@ function save() {
     // console.log(count);
     // console.log("I'm saving the people! " + count + " people saved!")
     let countDash = count + " - ";
-    comeIn.textContent += countDash;
+    saveEl.textContent += countDash;
     countEl.textContent = 0;
     count = 0;
 }
